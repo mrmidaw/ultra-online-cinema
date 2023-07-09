@@ -3,7 +3,7 @@ import { useQuery } from "react-query";
 import { IMenuItem } from "../menu.types";
 
 import { getGenreUrl } from "@/config/url.config";
-import { GenreService } from "@/services/genre.service";
+import { GenreService } from "@/services/genre/genre.service";
 
 // import { toastError } from "@/utils/api/withToastrErrorRedux";
 
